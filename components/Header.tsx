@@ -52,9 +52,15 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
                 Sign up
               </Button>
             </div>
+            <div>
+              <Button className="bg-white px-6 py-2" onClick={()=>{}}>
+                log in
+              </Button>
+            </div>
           </>
         </div>
       </div>
+      <div>{children}</div>
     </div>
   );
 };
